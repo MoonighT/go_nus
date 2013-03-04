@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /
+AddType text/cache-manifest .manifest
+AddType text/javascript-manifest .manifest
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]

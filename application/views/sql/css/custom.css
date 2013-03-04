@@ -1,0 +1,191 @@
+
+div#map_container {
+	width: 100%;
+	height: 1200px;
+}
+
+div#slideOutDiv {
+	position: fixed;
+	top: 0px;
+	left: -500px;
+	height: 50px;
+	width: 300px;
+}
+
+form.ui-listview-filter{
+	margin-top:0px;
+}
+
+
+#photo-ceil {
+	height: 120px;
+}
+ul li {
+	height: auto;
+}
+
+div.ceil-text-a {
+	color: black;
+	padding-left: 5px;
+	border-top-style: solid;
+	border-top-color: #6699cc;
+	border-top-width: 1px;
+	border-right-style: solid;
+	border-right-color: #6699cc;
+	border-right-width: 2px;
+}
+
+div.ceil-text-b {
+	padding-left: 5px;
+	color: #6699cc;
+	border-top-style: solid;
+	border-top-color: #6699cc;
+	border-top-width: 1px;
+}
+
+div.photo-area {
+	height: 120px;
+	background-color: grey;
+	padding: 10px;
+}
+
+div.info-area {
+	padding: 5px;
+}
+
+.single-line {
+	height: 12px;
+}
+
+div.single-line-left {
+	float: left;
+}
+
+div.single-line-right {
+	float: right;
+}
+
+.female {
+	color: #F20056;
+}
+
+.male {
+	color: #0099cc;
+}
+
+img.photo {
+	width: 150px;
+	height: 120px;
+}
+
+div.new_user{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.error_msg{
+	color:red;
+}
+
+div.login{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a.toggle_btn {
+    background: #ccc;
+    cursor: pointer;       
+}
+
+div.hidden{
+	display: none;
+}
+
+.desc{
+	color:grey;
+
+}
+
+
+
+.timeStyle
+{
+	font-size: 0.7em;
+	
+}
+.recvMsg
+{
+	
+	!position: absolute;
+	background: url('../images/chatrecv.png');
+	padding:20px; 
+	height: auto;
+	width: auto;
+	font-size: 1em;
+	text-align: right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family:arial; 
+	overflow: auto;
+	word-wrap: break-word;
+	max-width:250px;
+	padding-top: 10px;
+	
+}
+.sendMsg
+{
+	
+	!position: absolute;
+	background: url('../images/chatsend.png');
+	padding:20px; 
+	height: auto;
+	width: auto;
+	font-size: 1em;
+	text-align: left;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: right;
+	color: #FFFFFF;
+	font-family:arial; 
+	overflow: auto;
+	word-wrap: break-word;
+	max-width:250px;
+	padding-top: 10px;
+	
+}
+#contentBox
+{
+	position: absolute;
+    left: 0px;
+	width: 90%;
+	float: left;
+	overflow: scroll;
+	
+}
+#sendBtn
+{
+	position: absolute;
+    right: 0px;
+	width: 10%;
+	
+}
+
+#waitImg
+{
+	position: absolute;
+	visibility: collapse;
+	padding-bottom: 20px;
+}
+
+#conversation
+{
+	height: 400px; 
+	overflow-y: scroll;
+}
+
+#enterButton
+{
+	height: 9%;
+	min-height:9%;
+	max-height:9%;
+	font-size: 0.5em;
+}

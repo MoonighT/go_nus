@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# version 1.0
+
+./javascript.html
+./application/views/images/splash.png
+./application/views/images/splash-ipad.png
+./application/views/images/splash-big.png
+
+NETWORK:
+*

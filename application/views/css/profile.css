@@ -1,0 +1,60 @@
+#photo-ceil {
+	height: 120px;
+}
+ul li {
+	height: auto;
+}
+
+div.ceil-text-a {
+	color: black;
+	padding-left: 5px;
+	border-top-style: solid;
+	border-top-color: #6699cc;
+	border-top-width: 1px;
+	border-right-style: solid;
+	border-right-color: #6699cc;
+	border-right-width: 2px;
+}
+
+div.ceil-text-b {
+	padding-left: 5px;
+	color: #6699cc;
+	border-top-style: solid;
+	border-top-color: #6699cc;
+	border-top-width: 1px;
+}
+
+div.photo-area {
+	height: 120px;
+	background-color: grey;
+	padding: 10px;
+}
+
+div.info-area {
+	padding: 5px;
+}
+
+li.single-line {
+	height: 12px;
+}
+
+div.single-line-left {
+	float: left;
+}
+
+div.single-line-right {
+	float: right;
+}
+
+.female {
+	color: #F20056;
+}
+
+.male {
+	color: #0099cc;
+}
+
+img.photo {
+	width: 150px;
+	height: 120px;
+}

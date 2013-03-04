@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html manifest="/javascript.manifest">
+	<head>
+		<link rel="apple-touch-startup-image" href="http://ec2-122-248-209-136.ap-southeast-1.compute.amazonaws.com/application/views/images/splash.png" >
+
+		<link rel="apple-touch-startup-image" sizes="640×920" href="http://ec2-122-248-209-136.ap-southeast-1.compute.amazonaws.com/application/views/images/splash-ipad.png" />
+
+		<link rel="apple-touch-startup-image" sizes="768×1004" href="http://ec2-122-248-209-136.ap-southeast-1.compute.amazonaws.com/application/views/images/splash-big.png” media=”screen and (min-device-width: 321px) and (max-device-width: 1024px) and (orientation:portrait)" />
+	</head>
+
+	<body>
+		hello wolrd
+		<script type="text/javascript">
+			function loadDemo() {
+				if (navigator.onLine)
+					console.log(1);
+				else
+					console.log(2);
+			}
+
+			loadDemo();
+
+		</script>
+	</body>
+</html>
